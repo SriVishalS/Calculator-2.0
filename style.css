@@ -22,7 +22,7 @@ a {
   display: grid;
   place-items: center;
 }
-.buttons{
+.buttons {
   position: absolute;
   bottom: 55px;
 }
@@ -87,9 +87,6 @@ button:hover {
 button#equal {
   height: 170px;
 }
-/* .calculator {
-  background-color: #fff;
-} */
 .calculator #display {
   color: #0a1e23;
 }
