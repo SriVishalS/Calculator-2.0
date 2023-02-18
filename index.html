@@ -9,6 +9,13 @@
       <link rel="stylesheet" href="style.css">
       <link rel="icon" href="./weblogo.png">
       <title>Multi Themed calculator.</title>
+      <script>
+            if ('serviceWorker' in navigator) {
+                  window.addEventListener('load', () => {
+                        navigator.serviceWorker.register('./sw.js');
+                  });
+            }
+      </script>
 </head>
 
 <body onload="myFunction()">
